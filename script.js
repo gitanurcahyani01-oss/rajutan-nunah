@@ -68,7 +68,7 @@ customOrderBtn.addEventListener('click', () => {
   let message;
 
   if (idea) {
-    message = `Halo Nunah!, Saya ingin membuat Custom Order \n\nIde saya:\n${idea}\n\nBisa bantu saya?`;
+    message = `Halo Nunah!, Saya ingin membuat Custom Order \n\nPesan saya:\n${idea}\n\n`;
   } else {
     message = `Halo Nunah!, Saya ingin membuat Custom Order \n\nBoleh saya konsultasi dulu?`;
   }
